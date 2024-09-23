@@ -45,7 +45,11 @@ nav ul li {
 - Modify the CSS `nav ul li` style:
   - Adjust the `display` property so that it displays list items vertically
   - Adjust the margin so that it looks appropriate (more spacing between list items).
-```css
+```
+nav ul li {
+    display: block;
+    margin: 20px 0px;
+}
 ```
 
 - Modify the CSS `nav` style:
@@ -53,13 +57,27 @@ nav ul li {
    - Set the width of the sidebar to 20%.
    - Make the sidebar extend to the full height of the viewport.
    - Add padding to the top of the navigation content.
-```css
+```
+nav {
+    background-color: #ffa41b;
+    padding: 15px;
+    text-align: center;
+    float:left;
+    width: 20%;
+    height: 100vh;
+    padding-top: 25px;
+}
 ```
 
 ---
 ### Step 3: Adjust the Main Content Width
 - Modify the CSS `main` section to ensure the main content takes up the remaining width of the page and floats to the right of the sidebar.
-```css
+```
+main {
+    padding: 20px;
+    width: 76%;
+    float: right;
+}
 ```
 
 ---
