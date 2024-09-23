@@ -13,3 +13,22 @@ header,nav,article,div,footer{
     border: 1px solid grey;
     text-align: center;
 }
+header,footer{
+    width: 100%;
+    clear: both;
+}
+nav{
+    width: 20%;
+    height: 200px;
+    float: left;
+}
+article{
+    width: 60%;
+    height: 200px;
+    float: left;
+}
+div{
+    width: 20%;
+    height: 200px;
+    float:left;
+}
